@@ -11,6 +11,7 @@ SM3的输出范围是256位，那么我们攻击就是找到两个不同的x，y
 
 3 运行结果
 对sm3进行前8位，前16位，前24位进行攻击，对前8位进行攻击时由于时间太短结果为0
+
 ![1](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/ee0dd077-8cd0-4c4f-b903-8628029dcec0)
 ![2](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/40f38fba-6264-43a3-9e98-327dcaf225f6)
 ![3](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/e2c70afd-fdd0-4b87-ae70-c1cfb5d7a0d0)
