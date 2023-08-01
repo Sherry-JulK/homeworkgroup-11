@@ -8,8 +8,10 @@ rho算法通过设置一个函数，不断进行嵌套计算，多次运算后�
 
 ## 3 运行结果
 进行长度8bit与长度16bit的攻击
+
 ![1](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/e96b9905-0dd1-4e8f-b720-0a1ac1e2e4c3)
-![2](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/576d5feb-78ca-4f1e-8926-3dd5ee380a1f
+![2](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/9241577a-8373-436f-bab3-1474add82914)
+
 
 ## 4 结果分析
 随着碰撞位数的增加，运行时间成指数级增加
