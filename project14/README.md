@@ -8,6 +8,9 @@
 
 首先要import SM2，然后利用来自网络的SM4算法。算法中假设A向B发送消息，对其进行加解密。
 
+![2](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/815743a1-4690-4a01-910e-17af2cfed2ad)
+
+
 ## 3 运行结果
 
 ![1](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/e4bf4f93-269a-48ed-86a6-7a90f4d91771)
