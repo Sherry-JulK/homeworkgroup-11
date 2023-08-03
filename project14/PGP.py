@@ -51,7 +51,7 @@ class SM4:
 
 Bsk, Bpk = key_gen()
 
-sessionkey = secrets.token_hex(8)  # private key
+sessionkey = secrets.token_hex(8) 
 message = "SM2 PGP"
 print("A want to send massage:{}".format(message))
 
