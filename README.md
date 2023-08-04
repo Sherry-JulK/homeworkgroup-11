@@ -147,7 +147,7 @@ client：作为解密发起方，生成并保存子私钥之一的d1，请求ser
 ![2](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/8ac84af1-dec5-4c72-87f8-e2f50db20eaf)
 
 
-*Project19: forge a signature to pretend that you are Satoshi
+* Project19: forge a signature to pretend that you are Satoshi
 
 在ECDSA签名算法中执行验证算法时，根据收到的签名(r,s)以及公开的e，P，G等信息进行验证，其中e=Hash（m），由于哈希函数的单向性我们不需要也无法通过验证签名检查消息m的信息。这样我们在已知了Bitcoin网络中某个人用自己的私钥d对一个消息签名得到一对签名(r,s)后，可以使用特定算法构造出另一个对(r',s')也为由d生成的合法签名。
 
@@ -156,7 +156,7 @@ client：作为解密发起方，生成并保存子私钥之一的d1，请求ser
 ![1](https://github.com/Sherry-JulK/homeworkgroup-11/assets/138464371/ed0888b0-4a8f-4eb0-8a24-04e9d863d51d)
 
 
-*Project22: research report on MPT
+* Project22: research report on MPT
 
 MPT树中的节点包括空节点（在代码中是一个空串）、叶子节点（leaf，表示为[key,value]的一个键值对，其中key是key的一种特殊十六进制编码，value是value的RLP编码）、扩展节点（extension，也是[key，value]的一个键值对，但是这里的value是其他节点的hash值，这个hash可以被用来查询数据库中的节点。也就是说通过hash链接到其他节点）和分支节点（branch，因为MPT树中的key被编码成一种特殊的16进制的表示，再加上最后的value，所以分支节点是一个长度为17的字典）
 
